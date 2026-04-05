@@ -1,0 +1,19 @@
+.color-opt {
+  width: 40px;
+  height: 40px;
+  margin: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid white;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.color-opt:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
+}
+
+.color-opt:active {
+  transform: scale(0.9);
+}
